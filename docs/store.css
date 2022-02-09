@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Rancho&family=Roboto:wght@300;400;500&family=Work+Sans:wght@300&display=swap');
+
+@import "https://jodd-component-css.netlify.app/main.css";
+
+
+a{
+    color: var(--PRIMARY-COLOR);
+}
+
+/* ------- navbar-start -------  */
+
+.brand-text{
+    font-family: 'Merienda One', cursive;
+}
+
+.form-input{
+    display: inline-block;
+}
+
+.nav-btn{
+    font-weight: 700;
+    width: 10rem;
+}
+
+.hamburger{
+    background: transparent;
+    color: var(--SECONDARY-COLOR);
+}
+
+.hamburger:hover{
+    background-color: transparent;
+}
+
+.text-badge{
+    top: -1rem;
+    left: 1.2rem;
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid var(--BACKGROUND-COLOR);
+}
+
+/* --------navbar end -------  */
+
+.hero{
+    background-image: url("./assets/images/banner.jpg");
+    height: 50rem;
+    background-position: top center;
+    background-size: cover;
+    justify-content: end;
+    margin-bottom: 10rem;
+}
+
+.banner{
+    width: 50%;
+}
+
+.banner-text{
+    color: var(--BACKGROUND-COLOR);
+    font-size: 4rem;
+    font-family: monospace;
+    line-height: 1.5;
+}
+
+.title-underline{
+    background-color: var(--SECONDARY-COLOR);
+    width: 10rem;
+    height: 0.25rem;
+    margin: 2rem auto;
+}
+
+/* ----------main----------  */
+.grid{
+    display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+     gap: 2rem;
+     padding: 1rem 5rem;
+}
+
+.card-vertical{
+    position: relative;
+    transition: 0.3s ease;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: var(--BACKGROUND-COLOR);
+    background:rgb(0 0 0 / 50%);
+    font-weight: 800;
+}
+
+.card-vertical:hover{
+    transform: scale(1.05);
+}
+
+section{
+    margin-bottom: 5rem;
+}
+
+/* --------footer ------  */
+
+.footer{
+    background-color: var(--PRIMARY-COLOR);
+    color: var(--BACKGROUND-COLOR);
+    padding: 3rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-link{
+    color: var(--BACKGROUND-COLOR);
+}
+
+.footer-link:hover{
+    color: var(--SECONDARY-COLOR)
+}
+
+@media only screen and (max-width: 768px){
+
+    .nav-searchbar{
+        display: none;
+    }
+
+    .nav-searchbar-res{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .nav-search{
+        display: none;
+    }
+
+    .nav-searchbar-res > input{
+        transition: 0.3s ease;
+    }
+
+    .nav-searchbar-res > input:focus{
+        width: 100%;
+    }
+
+    .banner{
+        width: 50%
+    }
+
+    .banner-text{
+        line-height: 1.2;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 50%;
+    }
+
+    ul .nav-link{
+        display: none;
+    }
+
+    .banner{
+        width: 70%;
+        line-height: 1;
+    }
+
+    .mobile-view{
+        display: block;
+    }
+}
+
+
