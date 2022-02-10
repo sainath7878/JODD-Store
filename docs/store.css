@@ -126,19 +126,10 @@ section{
 
     .nav-searchbar-res{
         display: block;
-        margin: 0 auto;
     }
 
     .nav-search{
         display: none;
-    }
-
-    .nav-searchbar-res > input{
-        transition: 0.3s ease;
-    }
-
-    .nav-searchbar-res > input:focus{
-        width: 100%;
     }
 
     .banner{
