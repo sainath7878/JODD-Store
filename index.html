@@ -4,9 +4,215 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JODD Store</title>
+    <!-- ------- Bootstrap Icons CDN ---------  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./docs/store.css">
+    <title>JODDKart</title>
 </head>
 <body>
-    
+
+    <!-- ------header -------  -->
+    <header>
+        <nav class="navigation d-flex">
+            <div class="nav-section d-flex align-center">
+                <button class="btn btn-secondary d-none mobile-view hamburger"><i class="bi bi-list fs-l "></i></button>
+                <a href="#" class="nav-brand-link mr-sm">JODD<span class="brand-text">Kart</span></a>
+                <ul class="d-inline-block d-flex align-center">
+                    <li class="d-inline-block fs-s mr-sm"><a href="#" class="nav-link">Home</a></li>
+                    <li class="d-inline-block fs-s mr-sm"><a href="#" class="nav-link">Shop Now</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-section d-flex align-center">
+                <input type="text" placeholder="Search for games" class="form-input nav-search mr-sm">
+                <a href="#" class="mr-sm"><i class="bi bi-heart-fill nav-link fs-m"></i></a>
+                <div class="badge mr-sm">
+                    <a href="#">
+                        <i class="bi bi-cart-fill fs-m nav-link"></i>
+                        <span class="text-badge d-flex-center">5</span>
+                    </a>
+                </div>
+                <a href="#" class="btn btn-primary mr-sm fs-s text-align-center nav-btn">Sign In</a>
+            </div>
+        </nav>
+        <div class="nav-searchbar-res d-none">
+            <input type="text" placeholder="Search for games" class="form-input">
+        </div>
+    </header>
+
+    <main>
+        <section class="hero d-flex align-center">
+            <div class="banner">
+                <span class="banner-text">Gamers don't die, They respawn.</span>
+                <p class="banner-text mb-m">Buy Games at Flat 40% OFF</p>
+                <a href="#" class="btn btn-secondary fs-m"> Shop Now</a>
+            </div>
+        </section>
+
+        <section class="featured-categories">
+            <h1 class="fs-xl text-align-center">Featured Categories</h1>
+            <div class="title-underline"></div>
+            <div class="grid">
+                <div class="card-vertical d-flex">
+                    <a href="#">
+                        <div class="overlay fs-l d-flex justify-center align-center">
+                            FPS Games
+                        </div>
+                        <img loading="lazy" src="./docs/assets/images/fps.jpeg" alt="FPS Games" class="image-res">
+                    </a>
+                </div>
+
+                <div class="card-vertical">
+                    <a href="#">
+                        <div class="overlay fs-l d-flex justify-center align-center">
+                            Racing Games
+                        </div>
+                        <img loading="lazy" src="./docs/assets/images/racing.jpg" alt="Racing Games" class="image-res">
+                    </a>
+                </div>
+
+                <div class="card-vertical">
+                    <a href="#">
+                        <div class="overlay fs-l d-flex justify-center align-center">
+                            Open World
+                        </div>
+                        <img loading="lazy" src="./docs/assets/images/openworld.jpeg" alt="Open World Games" class="image-res">
+                    </a>
+                </div>
+
+                <div class="card-vertical">
+                    <a href="#">
+                        <div class="overlay fs-l d-flex justify-center align-center">
+                            Fifa
+                        </div>
+                        <img loading="lazy" src="./docs/assets/images/fifa.jpeg" alt="Fifa" class="image-res">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h1 class="fs-xl text-align-center">Trending Games</h1>
+            <div class="title-underline"></div>
+            <div class="grid">
+                <div class="card">
+                    <img src="./docs/assets/images/card.jpg" alt="Valorant" class="card-image">
+                    <h1 class="fs-s card-text-highlight">
+                        VALORANT
+                    </h1>
+                    <p class="fs-s">
+                        A 5v5 character-based tactical FPS where precise gunplay meets unique agent abilities.
+                    </p>
+                    <p class="fs-s">
+                        <del>₹1499</del> ₹999
+                        <span class="discount">34%</span>
+                    </p>
+                    <div class="cta-container d-flex align-center">
+                        <button class="btn btn-secondary d-flex-center">
+                            <img src="./docs/assets/images/shopping-cart-solid.svg" alt="cart" class="btn-icon"> Add to Cart
+                        </button>
+                    </div>
+                    <button class="card-btn-dismiss">
+                        <i class="bi bi-heart-fill fs-m"></i>
+                    </button>
+                    <span class="card-badge">
+                        On Sale
+                    </span>
+                </div>
+                
+                <div class="card">
+                    <img src="./docs/assets/images/card.jpg" alt="Valorant" class="card-image">
+                    <h1 class="fs-s card-text-highlight">
+                        VALORANT
+                    </h1>
+                    <p class="fs-s">
+                        A 5v5 character-based tactical FPS where precise gunplay meets unique agent abilities.
+                    </p>
+                    <p class="fs-s">
+                        <del>₹1499</del> ₹999
+                        <span class="discount">34%</span>
+                    </p>
+                    <div class="cta-container d-flex align-center">
+                        <button class="btn btn-secondary d-flex-center">
+                            <img src="./docs/assets/images/shopping-cart-solid.svg" alt="cart" class="btn-icon"> Add to Cart
+                        </button>
+                    </div>
+                    <button class="card-btn-dismiss">
+                        <i class="bi bi-heart-fill fs-m"></i>
+                    </button>
+                    
+                    <span class="card-badge">
+                        On Sale
+                    </span>
+                </div>
+
+                <div class="card">
+                    <img src="./docs/assets/images/card.jpg" alt="Valorant" class="card-image">
+                    <h1 class="fs-s card-text-highlight">
+                        VALORANT
+                    </h1>
+                    <p class="fs-s">
+                        A 5v5 character-based tactical FPS where precise gunplay meets unique agent abilities.
+                    </p>
+                    <p class="fs-s">
+                        <del>₹1499</del> ₹999
+                        <span class="discount">34%</span>
+                    </p>
+                    <div class="cta-container d-flex align-center">
+                        <button class="btn btn-secondary d-flex-center">
+                            <img src="./docs/assets/images/shopping-cart-solid.svg" alt="cart" class="btn-icon"> Add to Cart
+                        </button>
+                    </div>
+                    <button class="card-btn-dismiss">
+                        <i class="bi bi-heart-fill fs-m"></i>
+                    </button>
+                    
+                    <span class="card-badge">
+                        On Sale
+                    </span>
+                </div>
+
+                <div class="card">
+                    <img src="./docs/assets/images/card.jpg" alt="Valorant" class="card-image">
+                    <h1 class="fs-s card-text-highlight">
+                        VALORANT
+                    </h1>
+                    <p class="fs-s">
+                        A 5v5 character-based tactical FPS where precise gunplay meets unique agent abilities.
+                    </p>
+                    <p class="fs-s">
+                        <del>₹1499</del> ₹999
+                        <span class="discount">34%</span>
+                    </p>
+                    <div class="cta-container d-flex align-center">
+                        <button class="btn btn-secondary d-flex-center">
+                            <img src="./docs/assets/images/shopping-cart-solid.svg" alt="cart" class="btn-icon"> Add to Cart
+                        </button>
+                    </div>
+                    <button class="card-btn-dismiss">
+                        <i class="bi bi-heart-fill fs-m"></i>
+                    </button>
+                    
+                    <span class="card-badge">
+                        On Sale
+                    </span>
+                </div>
+                
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer d-flex align-center justify-center">
+        <p class="fs-s">
+            Made with ❤️ by Sainath
+        </p>
+        <div>
+            <a href="https://github.com/sainath7878" class="footer-link fs-l mr-sm" target="_blank" rel="noopener"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/svm-sainath-90aa061aa/" class="footer-link" target="_blank" rel="noopener"><i class="bi bi-linkedin fs-l mr-sm"></i></a>
+            <a href="https://twitter.com/sainath_svm" target="_blank" rel="noopener" class="footer-link"><i class="bi bi-twitter fs-l mr-sm"></i></a>
+        </div>
+    </footer>
 </body>
 </html>
