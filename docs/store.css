@@ -64,7 +64,7 @@ a{
 .title-underline{
     background-color: var(--SECONDARY-COLOR);
     width: 10rem;
-    height: 0.25rem;
+    height: 3px;
     margin: 2rem auto;
 }
 
@@ -98,6 +98,10 @@ a{
 
 section{
     margin-bottom: 5rem;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 14px 3px var(--CARD-SHADOW-COLOR);
 }
 
 /* --------footer ------  */
