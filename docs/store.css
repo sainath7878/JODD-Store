@@ -13,10 +13,6 @@ a{
     font-family: 'Merienda One', cursive;
 }
 
-.form-input{
-    display: inline-block;
-}
-
 .nav-btn{
     font-weight: 700;
     width: 10rem;
@@ -57,7 +53,7 @@ a{
 .banner-text{
     color: var(--BACKGROUND-COLOR);
     font-size: 4rem;
-    font-family: monospace;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5;
 }
 
@@ -130,19 +126,10 @@ section{
 
     .nav-searchbar-res{
         display: block;
-        margin: 0 auto;
     }
 
     .nav-search{
         display: none;
-    }
-
-    .nav-searchbar-res > input{
-        transition: 0.3s ease;
-    }
-
-    .nav-searchbar-res > input:focus{
-        width: 100%;
     }
 
     .banner{
@@ -160,17 +147,25 @@ section{
         font-size: 50%;
     }
 
+    .nav-brand-link{
+        font-size: 2rem;
+    }
+
     ul .nav-link{
         display: none;
     }
 
     .banner{
-        width: 70%;
+        width: 50%;
         line-height: 1;
     }
 
     .mobile-view{
         display: block;
+    }
+
+    .nav-section > *{
+        margin-right: 5px;
     }
 }
 
