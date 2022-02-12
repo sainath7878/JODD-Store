@@ -15,12 +15,3 @@
     border-radius: 5px;
     max-width: none;
 }
-
-.underline{
-    border-bottom: 1px solid var(--SECONDARY-COLOR)
-}
-
-.underline:hover{
-    border-bottom: 3px solid var(--SECONDARY-COLOR);
-    color: var(--SECONDARY-COLOR);
-}
