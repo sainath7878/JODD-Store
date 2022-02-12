@@ -2,6 +2,10 @@
 
 @import "https://jodd-component-css.netlify.app/main.css";
 
+:root{
+    --SIDE-NAVBAR-COLOR: #e5e7eb;
+}
+
 
 a{
     color: var(--PRIMARY-COLOR);
@@ -98,6 +102,15 @@ section{
 
 .card:hover{
     box-shadow: 2px 2px 14px 3px var(--CARD-SHADOW-COLOR);
+}
+
+.underline{
+    border-bottom: 1px solid var(--SECONDARY-COLOR)
+}
+
+.underline:hover{
+    border-bottom: 3px solid var(--SECONDARY-COLOR);
+    color: var(--SECONDARY-COLOR);
 }
 
 /* --------footer ------  */
