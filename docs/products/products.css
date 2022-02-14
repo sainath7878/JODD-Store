@@ -32,10 +32,6 @@ main{
     padding-bottom: 1rem;
 }
 
-.list-style-none{
-    list-style: none;
-}
-
 .form-checkbox{
     margin-right: 0.5rem;
 }
