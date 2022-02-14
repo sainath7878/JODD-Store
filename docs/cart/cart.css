@@ -1,3 +1,7 @@
+:root{
+    --BORDER-COLOR: #e5e7eb;
+}
+
 .cart{
     display: grid;
     grid-template-columns: 60% 40%;
@@ -10,7 +14,7 @@
 .cart-items{    
     grid-area: cart-items;
     padding: 3rem;
-    border-right: 2px solid var(--SIDE-NAVBAR-COLOR);
+    border-right: 2px solid var(--BORDER-COLOR);
 }
 
 .cart-list{
