@@ -6,7 +6,6 @@
     --SIDE-NAVBAR-COLOR: #e5e7eb;
 }
 
-
 a{
     color: var(--PRIMARY-COLOR);
 }
@@ -111,6 +110,10 @@ section{
 .underline:hover{
     border-bottom: 3px solid var(--SECONDARY-COLOR);
     color: var(--SECONDARY-COLOR);
+}
+
+.list-style-none{
+    list-style: none;
 }
 
 /* --------footer ------  */
