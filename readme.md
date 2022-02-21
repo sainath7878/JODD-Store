@@ -14,3 +14,6 @@
 - [SignUp](https://joddkart.netlify.app/docs/signup/signup.html)
 - [Wishlist](https://joddkart.netlify.app/docs/wishlist/wishlist.html)
 - [Cart](https://joddkart.netlify.app/docs/cart/cart.html)
+
+![App GIF](docs/assets/images/JODDKart.gif)
+
